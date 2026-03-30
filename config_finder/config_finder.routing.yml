@@ -1,0 +1,16 @@
+
+config_finder.settings:
+  path: '/admin/config/custom/config_finder'
+  defaults:
+    _form: 'Drupal\config_finder\Form\ConfigFinderSettingsForm'
+    _title: 'Config Finder settings'
+  requirements:
+    _permission: 'administer config_finder'
+
+config_finder.index:
+  path: '/admin/config/system/config-finder'
+  defaults:
+    _title: 'Module configuration index'
+    _controller: '\Drupal\config_finder\Controller\ConfigFinderController::index'
+  requirements:
+    _permission: 'administer site configuration'

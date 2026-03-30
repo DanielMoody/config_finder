@@ -1,0 +1,3 @@
+administer config_finder:
+  title: 'Administer Config Finder'
+  description: 'Configure Config Finder.'

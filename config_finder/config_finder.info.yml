@@ -1,0 +1,5 @@
+name: Config Finder
+type: module
+description: 'Lists enabled modules that declare a configure route.'
+package: Custom
+core_version_requirement: ^11
