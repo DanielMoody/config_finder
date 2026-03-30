@@ -1,5 +1,5 @@
 {
-  "name": "cms_alchemy/config-finder",
+  "name": "cms-alchemy/config-finder",
   "description": "Lists modules that declare a configure route and provides a centralized index of their configuration forms.",
   "type": "drupal-module",
   "license": "GPL-3.0-or-later",
