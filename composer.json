@@ -1,0 +1,19 @@
+{
+  "name": "cms_alchemy/config-finder",
+  "description": "Lists modules that declare a configure route and provides a centralized index of their configuration forms.",
+  "type": "drupal-module",
+  "license": "GPL-3.0-or-later",
+  "require": {
+    "drupal/core": "^11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Drupal\\config_finder\\": "src/"
+    }
+  },
+  "extra": {
+    "drupal": {
+      "package": "Custom"
+    }
+  }
+}
