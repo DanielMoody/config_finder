@@ -40,7 +40,7 @@ Config Finder scans enabled modules and:
 - Checks whether the current user has access
 - Lists them in one place
 
-Each module is shown with a status:
+By default, it only shows config routes you have access to, but unchecking the box on the form shows everything. Each module is shown with a status:
 
 - **Accessible** — you can click through
 - **Access denied** — route exists but you lack permission
