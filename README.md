@@ -9,7 +9,7 @@ Instead of digging through the modules list to find them, this module collects e
 ## Installation
 
 
-`composer require cms-alchemy/config-finder`
+`composer require cms-alchemy/config-finder`  
 `drush en config_finder`
 
 
