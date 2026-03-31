@@ -18,12 +18,6 @@ class ConfigFinderSettingsForm extends ConfigFormBase {
   public function buildForm(array $form, FormStateInterface $form_state): array {
     $config = $this->config('config_finder.settings');
 
-    $form['message'] = [
-      '#type' => 'textfield',
-      '#title' => $this->t('Message'),
-      '#default_value' => $config->get('message') ?? '',
-    ];
-
     $form['accessible_only'] = [
       '#type' => 'checkbox',
       '#title' => $this->t('Hide inaccessible or invalid configuration routes'),
