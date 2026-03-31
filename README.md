@@ -11,7 +11,8 @@ Instead of digging through the modules list to find them, this module collects e
 
 ```
 composer require cms-alchemy/config-finder
-drush en config_finder```
+drush en config_finder
+```
 
 
 > Drupal uses `config_finder` (underscores) as the module name, even though the Composer package is `config-finder`.
