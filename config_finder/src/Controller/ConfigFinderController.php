@@ -95,7 +95,7 @@ final class ConfigFinderController extends ControllerBase {
         }
 
         $link = ['#markup' => $module_label];
-        $status = 'Missing route';
+        $status = 'Unresolved route';
       }
 
       $rows[] = [
